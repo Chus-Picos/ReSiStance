@@ -1,0 +1,14 @@
+Source: resistance
+Section: user/utilities
+Priority: optional
+Maintainer: Sergio Villar Senin <svillar@igalia.com>
+Standards-Version: 3.7.3
+Build-Depends: debhelper (>= 5), python-support (>= 0.9)
+
+Package: resistance
+Architecture: any
+Depends: ${shlibs:Depends}, ${python:Depends}, ${misc:Depends},
+ python-gtk2, python-gobject (>= 2.16), python-feedparser,
+ python-webkit, python-configobj, python-dbus
+Description: RSS feed reader for Debian
+ RSS feed reader for Debian platform

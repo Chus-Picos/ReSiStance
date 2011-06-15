@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+ "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" [
+  <!ENTITY stroke_color "#ffffff">
+  <!ENTITY fill_color "#000000">
+]>
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   version="1.1"
+   width="55"
+   height="55"
+   id="svg2">
+  <metadata
+     id="metadata10">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs8" />
+  <g
+     id="layer4"
+     style="display:inline">
+    <rect
+       width="51"
+       height="51"
+       x="2"
+       y="2"
+       id="rect3872"
+       style="fill:&fill_color;;fill-opacity:1;stroke:&fill_color;;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none" />
+  </g>
+  <g
+     id="layer3"
+     style="display:inline">
+    <path
+       d="m 31,35 a 3,3 0 1 1 -6,0 3,3 0 1 1 6,0 z"
+       transform="matrix(1.1449251,0,0,1.2681163,-20.057903,-1.5797216)"
+       id="path3004"
+       style="fill:none;stroke:&stroke_color;;stroke-width:7.68996429;stroke-miterlimit:4;stroke-dasharray:none" />
+    <path
+       d="m 33,14 a 8,6.5 0 0 1 8,6.5"
+       transform="matrix(3.2880431,0,0,4.046823,-101.33151,-35.133782)"
+       id="path3789"
+       style="fill:none;stroke:&stroke_color;;stroke-width:2.01274395;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none" />
+    <path
+       d="m 33,14 a 8,6.5 0 0 1 8,6.5"
+       transform="matrix(5.0235744,0,0,5.9732444,-158.60404,-74.625422)"
+       id="path3789-9"
+       style="fill:none;stroke:&stroke_color;;stroke-width:1.34024537;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none" />
+  </g>
+</svg>

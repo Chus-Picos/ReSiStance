@@ -1,0 +1,8 @@
+#!/usr/bin/make -f
+# -*- makefile -*-
+
+override_dh_auto_install:
+	python setup.py install --no-compile --root=debian/resistance --prefix=/usr
+%:
+	dh $@ --with python-support
+

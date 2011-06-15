@@ -1,0 +1,9 @@
+[Activity]
+name = ReSiStance
+bundle_id = org.laptop.ReSiStanceActivity
+exec = sugar-activity ReSiStanceActivity.ReSiStanceActivity -s
+icon = activity-resistance
+activity_version = 1
+host_version = 1
+show_launcher = yes
+

@@ -1,0 +1,68 @@
+ReSiStance - News feed reader for Maemo5
+----------------------------------------
+
+ReSiStance is a news feed reader for Maemo5 (Fremantle) platform. It's
+known to work in Nokia N900 device.
+
+Besides that, it should also work in any GNU/Linux or Unix-like system
+that meets the following requirements:
+
+   * python
+   * python-hildon
+   * python-gtk2
+   * python-gobject
+   * python-feedparser
+   * python-configobj
+   * python-webkit
+   * python-dbus
+   * python-conic
+
+ReSiStance has the following features:
+
+   * ReSiStance can handle RSS 0.90, Netscape RSS 0.91, Userland RSS
+     0.91, RSS 0.92, RSS 0.93, RSS 0.94, RSS 1.0, RSS 2.0, Atom 0.3,
+     Atom 1.0, and CDF feeds. It also parses several popular extension
+     modules, including Dublin Core and Apple's iTunes
+     extensions. Support is provided by the python-feedparser module
+   * Autodiscovery of feed sources and favicon from a given URL
+   * Landscape/Portrait mode support
+   * Gettext support
+   * Import/export from/to OPML
+   * Attachment download support
+   * Connection-aware UI (libconic support)
+   * Google Reader support
+     * import feeds from Google Reader
+     * subscribe/unsubscribe feeds
+     * read/unread status synchronization
+
+--------------------------------------------------------
+
+ReSiStance is (c) 2010, 2011 Sergio Villar Senin <svillar@igalia.com>
+
+The application icon was designed by FastIcon.com (http://fasticon.com)
+
+The Google Reader icon got from http://gnome-look.org/content/show.php/Tango+Google+Reader+Icon?content=84565
+
+See AUTHORS file for details on authors
+
+The msgfmt.py file comes from the Deluge project and was downloaded from:
+http://svn.deluge-torrent.org/trunk/msgfmt.py
+
+The setup.py was also heavily inspired by the one in Deluge project:
+http://svn.deluge-torrent.org/trunk/setup.py
+
+The portrait.py file comes from the gPodder project and was downloaded from:
+http://repo.or.cz/w/gpodder.git/blob/HEAD:/src/gpodder/gtkui/frmntl/portrait.py
+
+The RSS autodiscovery code comes from:
+http://diveintomark.org/archives/2002/05/31/rss_autodiscovery_in_python
+
+ReSiStance is free software: you can redistribute it and/or modify it
+under the terms of the GNU General Public License version 3 as
+published by the Free Software Foundation.
+
+ReSiStance is distributed in the hope that it will be useful, but
+WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+See the COPYING file for more details.

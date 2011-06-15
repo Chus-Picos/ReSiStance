@@ -1,0 +1,6 @@
+include resistance
+include msgfmt.py
+include AUTHORS
+recursive-include po *
+recursive-include debian *
+recursive-include icons *

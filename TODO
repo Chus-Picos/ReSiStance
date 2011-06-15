@@ -1,0 +1,7 @@
+List of features that need to be implemented (in no particular order):
+
+Feed header background should use secondary text color
+Connectivity improvements
+Let user choose which feed to subscribe when the autodiscovery algorithm finds more than one
+Tagging support
+Starred items

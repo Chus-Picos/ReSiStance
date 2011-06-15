@@ -1,0 +1,102 @@
+resistance (0.8.7) unstable; urgency=high
+
+  * Release 0.8.7
+
+ -- Sergio Villar Senin <svillar@igalia.com>  Mon, 07 Feb 2011 12:45:00 +0100
+
+resistance (0.8.6) unstable; urgency=high
+
+  * Release 0.8.6
+
+ -- Sergio Villar Senin <svillar@igalia.com>  Sat, 29 Jan 2011 11:00:00 +0100
+
+resistance (0.8.5) unstable; urgency=high
+
+  * Release 0.8.5
+
+ -- Sergio Villar Senin <svillar@igalia.com>  Fri, 28 Jan 2011 13:30:00 +0100
+
+resistance (0.8.4) unstable; urgency=high
+
+  * Release 0.8.4
+
+ -- Sergio Villar Senin <svillar@igalia.com>  Tue, 25 Jan 2011 19:30:00 +0100
+
+resistance (0.8.3) unstable; urgency=high
+
+  * Release 0.8.3
+
+ -- Sergio Villar Senin <svillar@igalia.com>  Mon, 17 Jan 2011 17:30:00 +0100
+
+resistance (0.8.2) unstable; urgency=high
+
+  * Release 0.8.2
+
+ -- Sergio Villar Senin <svillar@igalia.com>  Wed, 12 Jan 2011 18:30:00 +0100
+
+resistance (0.8.1) unstable; urgency=high
+
+  * Release 0.8.1
+
+ -- Sergio Villar Senin <svillar@igalia.com>  Wed, 12 Jan 2011 11:00:00 +0100
+
+resistance (0.8) unstable; urgency=low
+
+  * Release 0.8
+
+ -- Sergio Villar Senin <svillar@igalia.com>  Tue, 11 Jan 2011 10:00:00 +0100
+
+resistance (0.7) unstable; urgency=low
+
+  * Release 0.7
+
+ -- Sergio Villar Senin <svillar@igalia.com>  Sun, 21 Nov 2010 23:59:50 +0100
+
+resistance (0.6) unstable; urgency=low
+
+  * Release 0.6
+
+ -- Sergio Villar Senin <svillar@igalia.com>  Fri, 19 Nov 2010 10:12:13 +0100
+
+resistance (0.5-1) unstable; urgency=high
+
+  * Release 0.5
+
+ -- Sergio Villar Senin <svillar@igalia.com>  Mon,  16 Aug 2010 11:45:00 +0100
+
+resistance (0.4-1) unstable; urgency=high
+
+  * Release 0.4
+
+ -- Sergio Villar Senin <svillar@igalia.com>  Thu,  24 Apr 2010 13:04:00 +0100
+
+resistance (0.3.1-1) unstable; urgency=high
+
+  * Release 0.3.1. Fixed webkit dependency
+
+ -- Sergio Villar Senin <svillar@igalia.com>  Thu,  01 Apr 2010 22:14:00 +0100
+
+resistance (0.3-1) unstable; urgency=low
+
+  * Release 0.3. Moved to webkit
+
+ -- Sergio Villar Senin <svillar@igalia.com>  Thu,  01 Apr 2010 20:34:00 +0100
+
+resistance (0.2.1-1) unstable; urgency=low
+
+  * Release 0.2.1. Some bugfixes to the 0.2 release
+
+ -- Sergio Villar Senin <svillar@igalia.com>  Mon,  29 Mar 2010 19:30:00 +0100
+
+resistance (0.2-1) unstable; urgency=low
+
+  * Release 0.2
+
+ -- Sergio Villar Senin <svillar@igalia.com>  Mon,  29 Mar 2010 13:02:00 +0100
+
+resistance (0.1-1) unstable; urgency=low
+
+  * Initial release
+
+ -- Sergio Villar Senin <svillar@igalia.com>  Tue,  9 Mar 2010 13:03:24 +0100
+

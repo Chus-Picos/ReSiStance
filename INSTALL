@@ -1,0 +1,18 @@
+Installation instructions
+-------------------------
+
+The easiest way to install ReSiStance is to create a Debian
+package. There are a couple of ways to do it
+
+   * By typing
+
+     dpkg-buildpackage -rfakeroot -us -uc -sa
+
+   * Alternatively
+
+     make deb
+
+If you prefer to do it by hand or if you're in a non-Debian system
+you can use the python distutils way:
+
+python setup.py install

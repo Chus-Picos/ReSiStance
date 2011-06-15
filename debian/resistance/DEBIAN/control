@@ -1,0 +1,10 @@
+Package: resistance
+Version: 0.8.7
+Architecture: i386
+Maintainer: Sergio Villar Senin <svillar@igalia.com>
+Installed-Size: 644
+Depends: python, python-support (>= 0.90.0), python-gtk2, python-gobject (>= 2.16), python-feedparser, python-webkit, python-configobj, python-dbus
+Section: user/utilities
+Priority: optional
+Description: RSS feed reader for Debian
+ RSS feed reader for Debian platform

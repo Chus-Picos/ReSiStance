@@ -1,0 +1,8 @@
+./src/ReSiStance/__init__.py
+./src/ReSiStance/feedmanager.py
+./src/ReSiStance/gui.py
+./src/ReSiStance/gui_gnome.py
+./src/ReSiStance/resistanceWindow.py
+./src/ReSiStance/constants.py
+./src/ReSiStance/portrait.py
+.ReSiStanceActivity.py

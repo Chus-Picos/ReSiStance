@@ -1,0 +1,112 @@
+#!/usr/bin/python
+# -*- coding: utf-8 -*-
+
+#########################################################################
+#    Copyright (C) 2011 Chus Picos Vilar <chuspicos@gmail.com>
+#
+#    This file is part of ReSiStance
+#
+#    ReSiStance is free software: you can redistribute it and/or modify
+#    it under the terms of the GNU General Public License as published by
+#    the Free Software Foundation, either version 3 of the License, or
+#    (at your option) any later version.
+#
+#    ReSiStance is distributed in the hope that it will be useful,
+#    but WITHOUT ANY WARRANTY; without even the implied warranty of
+#    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#    GNU General Public License for more details.
+#
+#    You should have received a copy of the GNU General Public License
+#    along with ReSiStance.  If not, see <http://www.gnu.org/licenses/>.
+#########################################################################
+
+import gettext
+import gtk
+import locale
+import os
+import sys
+from ReSiStance.gui_gnome import constants, FeedsWindow, LabelsWindow
+from ReSiStance.settings import Settings
+from ReSiStance.feedmanager import FeedManager
+from ReSiStance.connectionmanager_gnome import ConnectionManager
+from ReSiStance.resistanceWindow import ResistanceWindow
+from glib import source_remove
+from gobject import idle_add
+
+_ = gettext.gettext
+
+resistance_window = ResistanceWindow()
+conn_manager = ConnectionManager()
+settings = Settings()
+manager = FeedManager(settings, conn_manager)
+exit_idle_handler = 0 # Handler for exit code
+
+local_src = os.path.join (os.path.dirname(__file__), 'src')
+if os.path.exists(local_src):
+    sys.path = [local_src] + sys.path
+
+def on_exit_idle(data):
+    global manager, settings, exit_idle_handler
+
+    # Explicitly remove the idle as this callback could last too
+    # much and thus it could be triggered more than once
+    source_remove(exit_idle_handler)
+
+    # Wait until all tasks are canceled
+    manager.stop()
+    manager.halt()
+
+    settings.save()
+
+    # Save to disk without using workers
+    manager.save_sync()
+    idle_add(gtk.main_quit, None)
+    return True
+
+def on_exit(window, event):
+    # We do the final operations in an idle in order to let the window close
+    global exit_idle_handler
+    exit_idle_handler = idle_add(on_exit_idle, None)
+    return True
+
+def main():
+    gtk.gdk.threads_init()
+
+    # Init i18n stuff
+    languages = []
+    lc, encoding = locale.getdefaultlocale()
+    if lc:
+        languages = [lc]
+    languages += constants.DEFAULT_LANGUAGES
+    gettext.bindtextdomain(constants.RSS_COMPACT_NAME,
+                           constants.LOCALE_DIR)
+    gettext.textdomain(constants.RSS_COMPACT_NAME)
+    language = gettext.translation(constants.RSS_COMPACT_NAME,
+                                   constants.LOCALE_DIR,
+                                   languages = languages,
+                                   fallback = True)
+    _ = language.gettext
+
+    # Check that user dirs exist
+    if os.path.exists(constants.RSS_CONF_FOLDER) == False:
+        os.makedirs(constants.RSS_CONF_FOLDER, 0700)
+        os.mkdir(os.path.join(constants.RSS_CONF_FOLDER, 'icons'), 0700)
+
+    if os.path.exists(constants.RSS_DB_DIR) == False:
+        os.makedirs(constants.RSS_DB_DIR, 0700)
+
+    # Main Window
+    resistance_window.get_window().connect('delete-event', on_exit)
+
+    settings.load()
+    if settings.show_labels_startup:
+        win = LabelsWindow(manager, settings, conn_manager)
+    else:
+        win = FeedsWindow(manager, settings, conn_manager)
+    
+    win.show()
+
+    gtk.main()
+
+if __name__ == "__main__":
+    main()

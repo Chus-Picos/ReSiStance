@@ -1,0 +1,835 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-06-12 00:47+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../src/portrait.py:44 ../src/ReSiStance/portrait.py:49
+msgid "Automatic"
+msgstr ""
+
+#: ../src/portrait.py:44 ../src/ReSiStance/portrait.py:49
+msgid "Landscape"
+msgstr ""
+
+#: ../src/portrait.py:44 ../src/ReSiStance/portrait.py:49
+msgid "Portrait"
+msgstr ""
+
+#: ../src/resistance.py:148 ../src/resistance.py:232
+#: ../src/ReSiStance/gui.py:149 ../src/ReSiStance/gui.py:271
+#: ../src/ReSiStance/gui_gnome.py:610 ../src/ReSiStance/gui_gnome.py:2514
+#: ../ReSiStanceActivity.py:314
+msgid "Settings"
+msgstr ""
+
+#: ../src/resistance.py:161 ../src/ReSiStance/gui.py:162
+#: ../src/ReSiStance/gui_gnome.py:2538
+msgid "Screen orientation"
+msgstr ""
+
+#: ../src/resistance.py:170 ../src/resistance.py:227
+#: ../src/ReSiStance/gui.py:171 ../src/ReSiStance/gui.py:266
+#: ../src/ReSiStance/gui_gnome.py:346 ../src/ReSiStance/gui_gnome.py:488
+#: ../src/ReSiStance/gui_gnome.py:1438
+msgid "New Feed"
+msgstr ""
+
+#: ../src/resistance.py:178 ../src/ReSiStance/gui.py:179
+#: ../src/ReSiStance/gui_gnome.py:1448 ../src/ReSiStance/gui_gnome.py:1450
+msgid "Address"
+msgstr ""
+
+#: ../src/ReSiStance/gui.py:111 ../src/ReSiStance/gui_gnome.py:271
+#: ../ReSiStanceActivity.py:812
+msgid "Wait until feed is refreshed"
+msgstr ""
+
+#: ../src/ReSiStance/gui.py:141 ../src/ReSiStance/gui_gnome.py:255
+#: ../ReSiStanceActivity.py:896
+msgid "Retrieving info..."
+msgstr ""
+
+#: ../src/ReSiStance/gui.py:318
+msgid "Cannot retrieve feed from"
+msgstr ""
+
+#: ../src/ReSiStance/gui.py:444
+msgid "Empty"
+msgstr ""
+
+#: ../src/ReSiStance/gui.py:465
+msgid "View in Browser"
+msgstr ""
+
+#: ../src/ReSiStance/gui.py:554
+msgid "Item Window Empty"
+msgstr ""
+
+#: ../src/ReSiStance/gui.py:607 ../src/ReSiStance/gui_gnome.py:2314
+#: ../ReSiStanceActivity.py:2234
+msgid "No text"
+msgstr ""
+
+#: ../src/ReSiStance/gui_gnome.py:94 ../src/ReSiStance/gui_gnome.py:1357
+#: ../src/ReSiStance/gui_gnome.py:1481 ../src/ReSiStance/gui_gnome.py:2813
+#: ../ReSiStanceActivity.py:151 ../ReSiStanceActivity.py:1556
+#: ../ReSiStanceActivity.py:2324 ../ReSiStanceActivity.py:2581
+msgid "Icon"
+msgstr ""
+
+#: ../src/ReSiStance/gui_gnome.py:101 ../ReSiStanceActivity.py:158
+msgid "Sync"
+msgstr ""
+
+#: ../src/ReSiStance/gui_gnome.py:108 ../src/ReSiStance/gui_gnome.py:1364
+#: ../src/ReSiStance/gui_gnome.py:1488 ../src/ReSiStance/gui_gnome.py:2818
+#: ../ReSiStanceActivity.py:165 ../ReSiStanceActivity.py:1563
+#: ../ReSiStanceActivity.py:2329 ../ReSiStanceActivity.py:2588
+msgid "Name"
+msgstr ""
+
+#: ../src/ReSiStance/gui_gnome.py:118
+msgid "Unread"
+msgstr ""
+
+#: ../src/ReSiStance/gui_gnome.py:197
+msgid "Loading..."
+msgstr ""
+
+#: ../src/ReSiStance/gui_gnome.py:301 ../ReSiStanceActivity.py:791
+msgid "Error loading feed data"
+msgstr ""
+
+#: ../src/ReSiStance/gui_gnome.py:333
+msgid "Update"
+msgstr ""
+
+#: ../src/ReSiStance/gui_gnome.py:338
+msgid "Remove"
+msgstr ""
+
+#: ../src/ReSiStance/gui_gnome.py:350
+msgid "Update All"
+msgstr ""
+
+#: ../src/ReSiStance/gui_gnome.py:354
+msgid "Export Feeds"
+msgstr ""
+
+#: ../src/ReSiStance/gui_gnome.py:358
+msgid "Import Feeds"
+msgstr ""
+
+#: ../src/ReSiStance/gui_gnome.py:362 ../src/ReSiStance/gui_gnome.py:2362
+msgid "Find Feeds"
+msgstr ""
+
+#: ../src/ReSiStance/gui_gnome.py:366 ../src/ReSiStance/gui_gnome.py:627
+#: ../src/ReSiStance/gui_gnome.py:1725 ../src/ReSiStance/gui_gnome.py:1983
+msgid "Add GReader"
+msgstr ""
+
+#: ../src/ReSiStance/gui_gnome.py:371 ../src/ReSiStance/gui_gnome.py:642
+#: ../src/ReSiStance/gui_gnome.py:1725 ../src/ReSiStance/gui_gnome.py:1983
+msgid "Remove GReader"
+msgstr ""
+
+#: ../src/ReSiStance/gui_gnome.py:377 ../src/ReSiStance/gui_gnome.py:661
+msgid "Add to Label"
+msgstr ""
+
+#: ../src/ReSiStance/gui_gnome.py:382 ../src/ReSiStance/gui_gnome.py:676
+msgid "Remove from Label"
+msgstr ""
+
+#: ../src/ReSiStance/gui_gnome.py:407 ../src/ReSiStance/gui_gnome.py:808
+#: ../src/ReSiStance/gui_gnome.py:1047 ../src/ReSiStance/gui_gnome.py:2491
+#: ../ReSiStanceActivity.py:1096 ../ReSiStanceActivity.py:1538
+msgid "Please select at least one Feed"
+msgstr ""
+
+#: ../src/ReSiStance/gui_gnome.py:415 ../src/ReSiStance/gui_gnome.py:915
+#: ../src/ReSiStance/gui_gnome.py:1916
+msgid "Updating..."
+msgstr ""
+
+#: ../src/ReSiStance/gui_gnome.py:427
+msgid "Updated "
+msgstr ""
+
+#: ../src/ReSiStance/gui_gnome.py:434 ../ReSiStanceActivity.py:752
+msgid "Loaded"
+msgstr ""
+
+#: ../src/ReSiStance/gui_gnome.py:491
+msgid "Add a new feed [Ctrl+N]"
+msgstr ""
+
+#: ../src/ReSiStance/gui_gnome.py:500
+msgid "Remove Feed"
+msgstr ""
+
+#: ../src/ReSiStance/gui_gnome.py:503
+msgid "Remove one or more feeds [Ctrl+D]"
+msgstr ""
+
+#: ../src/ReSiStance/gui_gnome.py:512
+msgid "Update all"
+msgstr ""
+
+#: ../src/ReSiStance/gui_gnome.py:515
+msgid "Update the entries of the feeds [Ctrl+R]"
+msgstr ""
+
+#: ../src/ReSiStance/gui_gnome.py:531
+msgid "Export"
+msgstr ""
+
+#: ../src/ReSiStance/gui_gnome.py:534
+msgid "Export the list of feeds in an opml file [Ctrl+E]"
+msgstr ""
+
+#: ../src/ReSiStance/gui_gnome.py:547
+msgid "Import"
+msgstr ""
+
+#: ../src/ReSiStance/gui_gnome.py:550
+msgid "Import a list of feeds from an opml file [Ctrl+I]"
+msgstr ""
+
+#: ../src/ReSiStance/gui_gnome.py:561
+msgid "A-Z"
+msgstr ""
+
+#: ../src/ReSiStance/gui_gnome.py:565
+msgid "Sort the feeds in ascending order [Ctrl+T]"
+msgstr ""
+
+#: ../src/ReSiStance/gui_gnome.py:572
+msgid "Z-A"
+msgstr ""
+
+#: ../src/ReSiStance/gui_gnome.py:577
+msgid "Sort the feeds in descending order [Ctrl+Z]"
+msgstr ""
+
+#: ../src/ReSiStance/gui_gnome.py:584
+msgid "Favorites"
+msgstr ""
+
+#: ../src/ReSiStance/gui_gnome.py:588
+msgid "Sort the feeds according to the most read [Ctrl+V]"
+msgstr ""
+
+#: ../src/ReSiStance/gui_gnome.py:599 ../src/ReSiStance/gui_gnome.py:2364
+msgid "Find"
+msgstr ""
+
+#: ../src/ReSiStance/gui_gnome.py:602
+msgid "Find feeds by keywords [Ctrl+F]"
+msgstr ""
+
+#: ../src/ReSiStance/gui_gnome.py:613
+msgid "Select your personal settings [Ctrl+S]"
+msgstr ""
+
+#: ../src/ReSiStance/gui_gnome.py:630
+msgid ""
+"Add feeds to Google Reader [Ctrl+G] Use menu Settings to add your user and "
+"password"
+msgstr ""
+
+#: ../src/ReSiStance/gui_gnome.py:645
+msgid ""
+"Remove feeds to Google Reader [Ctrl+Alt+G] Use menu Settings to add your "
+"user and password"
+msgstr ""
+
+#: ../src/ReSiStance/gui_gnome.py:664
+msgid "Add feeds to this label [Ctrl+L]"
+msgstr ""
+
+#: ../src/ReSiStance/gui_gnome.py:679
+msgid "Remove feeds from this label [Ctrl+Shift+L]"
+msgstr ""
+
+#: ../src/ReSiStance/gui_gnome.py:729 ../src/ReSiStance/gui_gnome.py:1026
+msgid "Adding..."
+msgstr ""
+
+#: ../src/ReSiStance/gui_gnome.py:745
+msgid "Added"
+msgstr ""
+
+#: ../src/ReSiStance/gui_gnome.py:758 ../ReSiStanceActivity.py:926
+msgid "Could not retrieve feed"
+msgstr ""
+
+#: ../src/ReSiStance/gui_gnome.py:817 ../ReSiStanceActivity.py:563
+msgid "Do you want to delete these feeds?"
+msgstr ""
+
+#: ../src/ReSiStance/gui_gnome.py:832 ../ReSiStanceActivity.py:584
+msgid "File error while removing Feed"
+msgstr ""
+
+#: ../src/ReSiStance/gui_gnome.py:846 ../ReSiStanceActivity.py:601
+msgid "Do you want to remove the selected feeds from Google Reader?"
+msgstr ""
+
+#: ../src/ReSiStance/gui_gnome.py:922 ../src/ReSiStance/gui_gnome.py:1931
+msgid "Updated"
+msgstr ""
+
+#: ../src/ReSiStance/gui_gnome.py:932 ../src/ReSiStance/gui_gnome.py:1163
+#: ../src/ReSiStance/gui_gnome.py:1927
+msgid "Synchronizing read/unread status with Google Reader"
+msgstr ""
+
+#: ../src/ReSiStance/gui_gnome.py:934
+msgid "Synchronizing read/unread status..."
+msgstr ""
+
+#: ../src/ReSiStance/gui_gnome.py:951
+msgid "Exporting..."
+msgstr ""
+
+#: ../src/ReSiStance/gui_gnome.py:960 ../ReSiStanceActivity.py:990
+msgid "Feeds exported"
+msgstr ""
+
+#: ../src/ReSiStance/gui_gnome.py:962 ../ReSiStanceActivity.py:992
+msgid "Error exporting feeds"
+msgstr ""
+
+#: ../src/ReSiStance/gui_gnome.py:970 ../ReSiStanceActivity.py:692
+msgid "Select file to import"
+msgstr ""
+
+#: ../src/ReSiStance/gui_gnome.py:985
+msgid "Importing..."
+msgstr ""
+
+#: ../src/ReSiStance/gui_gnome.py:995 ../ReSiStanceActivity.py:1009
+msgid "Error importing feeds OPML file"
+msgstr ""
+
+#: ../src/ReSiStance/gui_gnome.py:1000 ../ReSiStanceActivity.py:1015
+msgid "No feeds to import in OPML file"
+msgstr ""
+
+#: ../src/ReSiStance/gui_gnome.py:1004
+msgid "Imported. Adding..."
+msgstr ""
+
+#: ../src/ReSiStance/gui_gnome.py:1016
+msgid "Imported. Added"
+msgstr ""
+
+#: ../src/ReSiStance/gui_gnome.py:1039 ../src/ReSiStance/gui_gnome.py:1942
+msgid "Subscribing..."
+msgstr ""
+
+#: ../src/ReSiStance/gui_gnome.py:1039
+msgid "Unsubscribing..."
+msgstr ""
+
+#: ../src/ReSiStance/gui_gnome.py:1065 ../ReSiStanceActivity.py:1119
+msgid "File error while subscribing Feed"
+msgstr ""
+
+#: ../src/ReSiStance/gui_gnome.py:1074 ../src/ReSiStance/gui_gnome.py:1954
+msgid "Subscribed"
+msgstr ""
+
+#: ../src/ReSiStance/gui_gnome.py:1074 ../src/ReSiStance/gui_gnome.py:1954
+msgid "Unsubscribed"
+msgstr ""
+
+#: ../src/ReSiStance/gui_gnome.py:1083 ../src/ReSiStance/gui_gnome.py:1960
+#: ../ReSiStanceActivity.py:1138
+msgid "Error removing from Google Reader"
+msgstr ""
+
+#: ../src/ReSiStance/gui_gnome.py:1085 ../src/ReSiStance/gui_gnome.py:1962
+#: ../ReSiStanceActivity.py:1140
+msgid "Error adding to Google Reader"
+msgstr ""
+
+#: ../src/ReSiStance/gui_gnome.py:1089 ../src/ReSiStance/gui_gnome.py:1966
+#: ../ReSiStanceActivity.py:1144
+msgid "Added to Google Reader"
+msgstr ""
+
+#: ../src/ReSiStance/gui_gnome.py:1092 ../src/ReSiStance/gui_gnome.py:1969
+#: ../ReSiStanceActivity.py:1147
+msgid "Removed from Google Reader"
+msgstr ""
+
+#: ../src/ReSiStance/gui_gnome.py:1112 ../src/ReSiStance/gui_gnome.py:1909
+#: ../src/ReSiStance/gui_gnome.py:1996 ../src/ReSiStance/gui_gnome.py:2043
+#: ../ReSiStanceActivity.py:1169 ../ReSiStanceActivity.py:1835
+#: ../ReSiStanceActivity.py:1903 ../ReSiStanceActivity.py:1964
+msgid "Error syncing read status with Google Reader"
+msgstr ""
+
+#: ../src/ReSiStance/gui_gnome.py:1118
+msgid "Synchronized"
+msgstr ""
+
+#: ../src/ReSiStance/gui_gnome.py:1140 ../ReSiStanceActivity.py:1186
+msgid "Do you want to retrieve labels from GoogleReader?"
+msgstr ""
+
+#: ../src/ReSiStance/gui_gnome.py:1141 ../ReSiStanceActivity.py:1187
+msgid "Note: no future synchronization of labels will be performed"
+msgstr ""
+
+#: ../src/ReSiStance/gui_gnome.py:1182
+msgid "Feeds synchronized"
+msgstr ""
+
+#: ../src/ReSiStance/gui_gnome.py:1186 ../ReSiStanceActivity.py:1231
+msgid "Authentication error"
+msgstr ""
+
+#: ../src/ReSiStance/gui_gnome.py:1199 ../ReSiStanceActivity.py:1239
+msgid "Error synchronizing feeds"
+msgstr ""
+
+#: ../src/ReSiStance/gui_gnome.py:1205 ../ReSiStanceActivity.py:1244
+msgid "No feeds in Google Reader to synchronize"
+msgstr ""
+
+#: ../src/ReSiStance/gui_gnome.py:1255
+msgid "Finding..."
+msgstr ""
+
+#: ../src/ReSiStance/gui_gnome.py:1273 ../ReSiStanceActivity.py:1079
+msgid "Error finding feeds. Server error."
+msgstr ""
+
+#: ../src/ReSiStance/gui_gnome.py:1375
+msgid "Select Feeds"
+msgstr ""
+
+#: ../src/ReSiStance/gui_gnome.py:1440 ../src/ReSiStance/gui_gnome.py:2433
+#: ../src/ReSiStance/gui_gnome.py:3032
+msgid "Add"
+msgstr ""
+
+#: ../src/ReSiStance/gui_gnome.py:1444
+msgid "Entry for new address"
+msgstr ""
+
+#: ../src/ReSiStance/gui_gnome.py:1494 ../ReSiStanceActivity.py:1569
+msgid "Date"
+msgstr ""
+
+#: ../src/ReSiStance/gui_gnome.py:1642
+msgid "Update feed"
+msgstr ""
+
+#: ../src/ReSiStance/gui_gnome.py:1645
+msgid "Update this feed [Ctrl+R]"
+msgstr ""
+
+#: ../src/ReSiStance/gui_gnome.py:1655
+msgid "Show All"
+msgstr ""
+
+#: ../src/ReSiStance/gui_gnome.py:1658
+msgid "Show all entries [Ctrl+A]"
+msgstr ""
+
+#: ../src/ReSiStance/gui_gnome.py:1664
+msgid "Show Unread"
+msgstr ""
+
+#: ../src/ReSiStance/gui_gnome.py:1667
+msgid "Show only unread entries [Ctrl+U]"
+msgstr ""
+
+#: ../src/ReSiStance/gui_gnome.py:1683 ../ReSiStanceActivity.py:1756
+msgid "Mark read"
+msgstr ""
+
+#: ../src/ReSiStance/gui_gnome.py:1686
+msgid "Choose entries to mark as read [Ctrl+M]"
+msgstr ""
+
+#: ../src/ReSiStance/gui_gnome.py:1693 ../ReSiStanceActivity.py:1764
+msgid "Mark unread"
+msgstr ""
+
+#: ../src/ReSiStance/gui_gnome.py:1696
+msgid "Choose entries to mark as not read [Ctrl+N]"
+msgstr ""
+
+#: ../src/ReSiStance/gui_gnome.py:1709 ../ReSiStanceActivity.py:1722
+msgid "Download all"
+msgstr ""
+
+#: ../src/ReSiStance/gui_gnome.py:1712
+msgid "Download the files [Ctrl+D]"
+msgstr ""
+
+#: ../src/ReSiStance/gui_gnome.py:1729
+msgid ""
+"Add or remove the feed to Google Reader [Ctrl+G] Use menu Settings to add "
+"your user and password"
+msgstr ""
+
+#: ../src/ReSiStance/gui_gnome.py:1942
+msgid "Unubscribing..."
+msgstr ""
+
+#: ../src/ReSiStance/gui_gnome.py:1991
+msgid "Synchronized read/unread status"
+msgstr ""
+
+#: ../src/ReSiStance/gui_gnome.py:2012 ../ReSiStanceActivity.py:1933
+msgid "Please select at least one Entry"
+msgstr ""
+
+#: ../src/ReSiStance/gui_gnome.py:2059 ../src/ReSiStance/gui_gnome.py:2077
+#: ../src/ReSiStance/gui_gnome.py:2348
+msgid "Downloading..."
+msgstr ""
+
+#: ../src/ReSiStance/gui_gnome.py:2066 ../ReSiStanceActivity.py:2003
+msgid "Items downloaded"
+msgstr ""
+
+#: ../src/ReSiStance/gui_gnome.py:2068 ../ReSiStanceActivity.py:2005
+msgid "Error downloading items"
+msgstr ""
+
+#: ../src/ReSiStance/gui_gnome.py:2094 ../src/ReSiStance/gui_gnome.py:2354
+#: ../ReSiStanceActivity.py:2292
+msgid "Item downloaded"
+msgstr ""
+
+#: ../src/ReSiStance/gui_gnome.py:2096 ../src/ReSiStance/gui_gnome.py:2356
+#: ../ReSiStanceActivity.py:2294
+msgid "Error downloading item"
+msgstr ""
+
+#: ../src/ReSiStance/gui_gnome.py:2127
+msgid "Download"
+msgstr ""
+
+#: ../src/ReSiStance/gui_gnome.py:2128
+msgid "Download the item [Ctrl+D] Use menu Settings to configure a folder "
+msgstr ""
+
+#: ../src/ReSiStance/gui_gnome.py:2134
+msgid "Open browser"
+msgstr ""
+
+#: ../src/ReSiStance/gui_gnome.py:2135
+msgid "Open the item in a web browser [Ctrl+O]"
+msgstr ""
+
+#: ../src/ReSiStance/gui_gnome.py:2148
+msgid "Read the previous item [Ctrl+Up-arrow]"
+msgstr ""
+
+#: ../src/ReSiStance/gui_gnome.py:2156
+msgid "Read the next item [Ctrl+Down-arrow]"
+msgstr ""
+
+#: ../src/ReSiStance/gui_gnome.py:2369
+msgid "Entry for keywords"
+msgstr ""
+
+#: ../src/ReSiStance/gui_gnome.py:2373 ../src/ReSiStance/gui_gnome.py:2375
+msgid "Keywords"
+msgstr ""
+
+#: ../src/ReSiStance/gui_gnome.py:2436
+msgid "Select Feeds to add"
+msgstr ""
+
+#: ../src/ReSiStance/gui_gnome.py:2511
+msgid "Save"
+msgstr ""
+
+#: ../src/ReSiStance/gui_gnome.py:2529
+msgid "Visual Settings"
+msgstr ""
+
+#: ../src/ReSiStance/gui_gnome.py:2567 ../src/ReSiStance/gui_gnome.py:2569
+#: ../ReSiStanceActivity.py:1291
+msgid "Default font size"
+msgstr ""
+
+#: ../src/ReSiStance/gui_gnome.py:2586 ../ReSiStanceActivity.py:1302
+msgid "Auto load images"
+msgstr ""
+
+#: ../src/ReSiStance/gui_gnome.py:2596 ../ReSiStanceActivity.py:1309
+msgid "Show labels at start-up"
+msgstr ""
+
+#: ../src/ReSiStance/gui_gnome.py:2605
+msgid "Update Settings"
+msgstr ""
+
+#: ../src/ReSiStance/gui_gnome.py:2612 ../ReSiStanceActivity.py:1320
+msgid "Automatically download Podcasts"
+msgstr ""
+
+#: ../src/ReSiStance/gui_gnome.py:2622 ../src/ReSiStance/gui_gnome.py:2624
+msgid "Auto download folder"
+msgstr ""
+
+#: ../src/ReSiStance/gui_gnome.py:2632
+msgid "Entry for auto download folder"
+msgstr ""
+
+#: ../src/ReSiStance/gui_gnome.py:2659
+msgid "Google Reader Settings"
+msgstr ""
+
+#: ../src/ReSiStance/gui_gnome.py:2667 ../ReSiStanceActivity.py:1370
+msgid "Synchronize now"
+msgstr ""
+
+#: ../src/ReSiStance/gui_gnome.py:2668 ../ReSiStanceActivity.py:1331
+msgid "Synchronize with Google Reader"
+msgstr ""
+
+#: ../src/ReSiStance/gui_gnome.py:2679 ../src/ReSiStance/gui_gnome.py:2681
+#: ../ReSiStanceActivity.py:1338
+msgid "User"
+msgstr ""
+
+#: ../src/ReSiStance/gui_gnome.py:2687
+msgid "Entry for user"
+msgstr ""
+
+#: ../src/ReSiStance/gui_gnome.py:2695 ../src/ReSiStance/gui_gnome.py:2697
+#: ../ReSiStanceActivity.py:1348
+msgid "Password"
+msgstr ""
+
+#: ../src/ReSiStance/gui_gnome.py:2703
+msgid "Entry for password"
+msgstr ""
+
+#: ../src/ReSiStance/gui_gnome.py:2731
+msgid "Synchronizing. Wait window activation"
+msgstr ""
+
+#: ../src/ReSiStance/gui_gnome.py:2740
+msgid "Do you want return without save?"
+msgstr ""
+
+#: ../src/ReSiStance/gui_gnome.py:2750
+msgid "Autodownload folder"
+msgstr ""
+
+#: ../src/ReSiStance/gui_gnome.py:2753
+msgid "Select a folder for automatic downloads"
+msgstr ""
+
+#: ../src/ReSiStance/gui_gnome.py:2774
+msgid "Synchronizing..."
+msgstr ""
+
+#: ../src/ReSiStance/gui_gnome.py:2850
+msgid "Status bar"
+msgstr ""
+
+#: ../src/ReSiStance/gui_gnome.py:2884 ../src/ReSiStance/gui_gnome.py:3030
+msgid "New Label"
+msgstr ""
+
+#: ../src/ReSiStance/gui_gnome.py:2887
+msgid "Add a new label [Ctrl+N]"
+msgstr ""
+
+#: ../src/ReSiStance/gui_gnome.py:2896
+msgid "Remove Label"
+msgstr ""
+
+#: ../src/ReSiStance/gui_gnome.py:2899
+msgid "Remove labels [Ctrl+D]"
+msgstr ""
+
+#: ../src/ReSiStance/gui_gnome.py:2912 ../ReSiStanceActivity.py:2467
+msgid "Error loading labels."
+msgstr ""
+
+#: ../src/ReSiStance/gui_gnome.py:2929 ../src/ReSiStance/gui_gnome.py:2976
+#: ../ReSiStanceActivity.py:2484 ../ReSiStanceActivity.py:2522
+msgid "All Feeds"
+msgstr ""
+
+#: ../src/ReSiStance/gui_gnome.py:2952 ../ReSiStanceActivity.py:2501
+msgid "Label not created. Already exists."
+msgstr ""
+
+#: ../src/ReSiStance/gui_gnome.py:2993 ../ReSiStanceActivity.py:2543
+msgid "Please select at least one Label"
+msgstr ""
+
+#: ../src/ReSiStance/gui_gnome.py:3001 ../ReSiStanceActivity.py:2551
+msgid "Do you want to delete these labels?"
+msgstr ""
+
+#: ../src/ReSiStance/gui_gnome.py:3036
+msgid "Entry for label name"
+msgstr ""
+
+#: ../src/ReSiStance/gui_gnome.py:3037
+msgid "Write here a name for the new label"
+msgstr ""
+
+#: ../src/ReSiStance/gui_gnome.py:3041 ../src/ReSiStance/gui_gnome.py:3043
+msgid "Label name"
+msgstr ""
+
+#: ../src/ReSiStance/resistanceWindow.py:25
+msgid "Back"
+msgstr ""
+
+#: ../src/ReSiStance/resistanceWindow.py:27
+msgid "Return to the previous window [Ctrl+B]"
+msgstr ""
+
+#: ../ReSiStanceActivity.py:323
+msgid "Add feeds to this label"
+msgstr ""
+
+#: ../ReSiStanceActivity.py:331
+msgid "Remove feeds from this label"
+msgstr ""
+
+#: ../ReSiStanceActivity.py:352 ../ReSiStanceActivity.py:1521
+#: ../ReSiStanceActivity.py:1778 ../ReSiStanceActivity.py:2153
+#: ../ReSiStanceActivity.py:2706
+msgid "Return to the previous window"
+msgstr ""
+
+#: ../ReSiStanceActivity.py:366
+msgid "New"
+msgstr ""
+
+#: ../ReSiStanceActivity.py:382
+msgid "Add a new feed"
+msgstr ""
+
+#: ../ReSiStanceActivity.py:393
+msgid "Remove one or more feeds"
+msgstr ""
+
+#: ../ReSiStanceActivity.py:401
+msgid "Update the entries of the feeds"
+msgstr ""
+
+#: ../ReSiStanceActivity.py:409
+msgid "Export the list of feeds in an opml file"
+msgstr ""
+
+#: ../ReSiStanceActivity.py:417
+msgid "Import a list of feeds from an opml file"
+msgstr ""
+
+#: ../ReSiStanceActivity.py:430
+msgid "Sort the feeds in ascending order"
+msgstr ""
+
+#: ../ReSiStanceActivity.py:439
+msgid "Sort the feeds in descending order"
+msgstr ""
+
+#: ../ReSiStanceActivity.py:448
+msgid "Sort the feeds according to the most read"
+msgstr ""
+
+#: ../ReSiStanceActivity.py:461
+msgid "Search"
+msgstr ""
+
+#: ../ReSiStanceActivity.py:481
+msgid "Find feeds by keywords"
+msgstr ""
+
+#: ../ReSiStanceActivity.py:497
+msgid "Add feeds to Google Reader."
+msgstr ""
+
+#: ../ReSiStanceActivity.py:497 ../ReSiStanceActivity.py:506
+msgid "Use Settings to add your user and password"
+msgstr ""
+
+#: ../ReSiStanceActivity.py:506
+msgid "Remove feeds from Google Reader."
+msgstr ""
+
+#: ../ReSiStanceActivity.py:1359
+msgid "Save user and password for Google:"
+msgstr ""
+
+#: ../ReSiStanceActivity.py:1507
+msgid "Add the selected feeds"
+msgstr ""
+
+#: ../ReSiStanceActivity.py:1730
+msgid "Update this feed"
+msgstr ""
+
+#: ../ReSiStanceActivity.py:1739
+msgid "Show all entries"
+msgstr ""
+
+#: ../ReSiStanceActivity.py:1748
+msgid "Show only unread entries"
+msgstr ""
+
+#: ../ReSiStanceActivity.py:2123
+msgid "Download the item"
+msgstr ""
+
+#: ../ReSiStanceActivity.py:2131
+msgid "Read the previous item"
+msgstr ""
+
+#: ../ReSiStanceActivity.py:2139
+msgid "Read the next item"
+msgstr ""
+
+#: ../ReSiStanceActivity.py:2406
+msgid "Remove one or more labels"
+msgstr ""
+
+#: ../ReSiStanceActivity.py:2427
+msgid "New label"
+msgstr ""
+
+#: ../ReSiStanceActivity.py:2443
+msgid "Add a new label"
+msgstr ""
+
+#: ../ReSiStanceActivity.py:2684
+msgid "Add these feeds to the label"
+msgstr ""
+
+#: ../ReSiStanceActivity.py:2691
+msgid "Remove these feeds from the label"
+msgstr ""

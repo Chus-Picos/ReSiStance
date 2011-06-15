@@ -1,0 +1,119 @@
+0.8.7 (07 Feb 2011)
+  * Fixed several bugs related to the recently added "Show Unread" filter
+  * Fixed a crash when connection changes after showing some feed entries
+
+0.8.6 (29 Jan 2011)
+  * Improved a bit then performance of Google Reader read status sync
+  * Show an informative banner when loading feed data takes more than 1 sec
+  * Do not call save() multiple times when removing several feeds at once
+  * Do not forget sync and favourite status when updating feeds
+
+0.8.5 (28 Jan 2011)
+  * Fixed feed updating that was broken with unread filtering
+  * Improved feed body detection. Added some fallbacks
+  * Feeds without publish dates are now properly shown
+
+0.8.4 (25 Jan 2011)
+  * Big refactoring of the program guts. Now instead of creating tons
+    of threads we use a synchronized queue consumed by a couple of
+    working threads that execute tasks. Among other advantages, this
+    allows us to limit the amount of threads run by ReSiStance and
+    thus improving overall device responsiveness
+  * New shutdown sequence, pending operations are properly cancelled
+    instead of waiting for them to finish
+  * New filter to show only unread items on Entries Window
+  * Removed extra filterings done when switching between different
+    sorting options
+
+0.8.3 (17 Jan 2011)
+  * Do not save feed data to disk for each new feed when adding a bunch of them
+    (like when importing from OPML or from Google Reader)
+  * Do not try to add feeds that could not be parsed by the feedparser. They're
+    most likely feeds that do not longer exist and that have been replaced by
+    webpages with some error.
+
+0.8.2 (12 Jan 2011)
+  * Fixed a critical bug when starting 0.8.x versions after
+    updating. https://bugs.maemo.org/show_bug.cgi?id=11768
+
+0.8.1 (12 Jan 2011)
+  * Fixed a bug when retrieving feeds from non-existent URL
+  * Do not import from Google Reader non-RSS resources
+  * Use hash() instead of id() to generate unique id's. This was
+    causing several exceptions showing the feeds
+
+0.8 (11 Jan 2011)
+  * Google Reader support
+  * New feeds view renderer
+  * New unread count renderer
+  * Show full content of the feed instead summary
+  * Feed entries are now properly sorted by date
+  * Improved user feedback when adding multiple feeds
+  * Several bug fixes: feed autodiscovery, error messages...
+  * Improved overall robustness, better exception handling
+
+0.7 (22 Nov 2010)
+  * Robustness fixes
+  * Added python-conic as dependency
+  * Added connectionmanager.py
+  * Improved OPML import
+  * Hide/Show UI elements based on connection status
+
+0.6 (19 Nov 2010)
+  * Attachment (feed enclosures) download support
+  * Improved encoding handling
+  * Several code refactorings
+  * Small UI changes. Update button in pannable area
+  * Multiple mark as (un)read support
+
+0.5 (16 Aug 2010)
+  * Find Feeds using syndic8.com
+  * OMPL import/export
+  * New welcome dialog
+  * Minor connectivity fixes
+  * Improved item window load performance
+
+0.4 (24 Apr 2010)
+  * Remove padding in windows when in portrait mode
+  * Item window title is now the author
+  * Fallback for feeds without parsed date
+  * Toolbar with navigation buttons in portrait mode
+  * Disable horizontal panning in portrait mode
+
+0.3.1 (01 Apr 2010)
+  * Added webkit dependency in debian package
+
+0.3 (01 Apr 2010)
+  * Moved to python-webkit
+  * Added sorting to feeds window
+  * Do not duplicate entries when updating
+  * Load/Save application settings with ConfigObj
+  * Added settings validation
+  * Added settings: rotation, font size, autoload images
+
+0.2.1 (29 Mar 2010)
+  * Added icon to debian/control
+  * Show URL when retrieving data (regression)
+  * Enable/disable navigation buttons in first/last item
+  * Fixed multiple removal of feeds
+  * Update header in item window when navigating
+
+0.2 (29 Mar 2010)
+  * Item details dialog
+  * "Mark all as read" button
+  * Performance improvements drawing items and feeds
+  * Show dates in entries window
+  * Escape author and title in entries window
+  * Download external images in threads
+  * Add read/unread status to updated feeds
+
+0.1 (17 Mar 2010)
+  * First release with source code
+  * Autodiscovery of feeds
+  * Favicon autodiscovery
+  * Landscape/portrait mode support
+  * Update all/Update one by one
+  * Read/unread status persistency
+  * Remove feeds
+  * Navigation between feeds in feed view window
+  * Screen rotation settings
